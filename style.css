@@ -1,0 +1,378 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    padding: 0 120px;
+
+
+}
+
+/*Header*/
+nav{
+    box-shadow: 0 0 1px #bdc3c7;
+    
+    
+}
+li .active{
+    color: #c69f73 !important;
+}
+
+.fa-shopping-cart {
+    position: relative;
+}
+
+.badge {
+    font-size: 9px;
+    background: #C69F73;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    border-radius: 50%;
+}
+
+#header input {
+    border: none;
+    border-radius: 10px;
+
+}
+
+
+/*Slide*/
+
+.img {
+    width: 420px;
+    margin:auto;
+    margin-top:58px
+}
+
+.img img {
+    width: 420px;
+    
+}
+
+
+
+.carousel-item img {
+    width: 80vw;
+    height: 100%vh;
+    position: relative;
+}
+
+.carousel-item .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    background: #fff;
+    color: black;
+    text-align: center;
+
+}
+
+.carousel-item .box p {
+    color: #c69f73;
+    letter-spacing: 3px;
+    padding-top: 60px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+
+.carousel-item .box p:hover {
+    text-underline-offset: 15px;
+    transition: 5s ease all;
+}
+
+
+
+.carousel-item .box .btn {
+    border: 1.5px solid #c69f73;
+    border-radius: 0px !important;
+    width: 40%;
+}
+
+/*Shake*/
+.carousel-item .shake {
+    position: relative;
+    animation-name: shake;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+    
+}
+.carousel-item .shake:hover{
+    animation-name:shakeAnim;
+    background: #c69f73;
+    color: white;
+}
+
+/*Shake Animation*/
+@keyframes shakeAnim {
+  0% {left: 0}
+  1% {left: -3px}
+  2% {left: 5px}
+  3% {left: -8px}
+  4% {left: 8px}
+  5% {left: -5px}
+  6% {left: 3px}
+  7% {left: 0}
+}
+
+@keyframes shake {
+  0% {left: 0}
+  1% {left: -3px}
+  2% {left: 5px}
+  3% {left: -8px}
+  4% {left: 8px}
+  5% {left: -5px}
+  6% {left: 3px}
+  7% {left: 0}
+}
+/*Shake*/
+
+
+/*Promo*/
+#promo .item {
+    position: relative;
+}
+
+#promo .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+#promo .box p {
+    padding: 0 6px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#article article {
+    float: left;
+}
+
+#article article h2,
+h5,
+h6 {
+    text-align: center
+}
+
+#article article {
+    width: 70%;
+    position: relative;
+
+}
+
+#article article .main-post h5 {
+    color: #c69f73;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition: 0.4s ease all;
+
+
+}
+
+#article article .main-post h5:hover {
+    text-underline-offset: 10px;
+    transition: 0.4s ease all;
+
+
+
+}
+
+#article article .btn {
+    border: 1.5px solid #c69f73;
+    border-radius: 0px !important;
+    width: 40%;
+    margin: 10px 240px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+
+}
+
+#article article .social .fab {
+    color: #c69f73;
+}
+
+#article article .post h5 {
+    color: #c69f73;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition: 0.4s ease all;
+}
+
+#article article .post h5:hover {
+    text-underline-offset: 10px;
+    transition: 0.4s ease all;
+
+}
+
+#article article .post:hover .ul:after {
+    top: 25px;
+    transition: 0.4s ease all;
+}
+
+
+#article aside {
+    width: 28%;
+    float: right;
+    color: white;
+
+}
+
+.blog .trending{
+    position: relative;
+}
+
+.blog .trending span{
+    position: absolute;
+    top:-5px;
+    left:5px;
+    width:25px;
+    height:25px;
+    line-height: 25px;
+    background: black;
+    border-radius: 50%;
+    color: #fff;
+    
+}
+
+#article aside .aside-items {
+    margin-left: 35px;
+}
+
+#article aside .btn {
+    border: 1.5px solid #c69f73;
+    border-radius: 0px !important;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+
+}
+
+#article aside .profile img {
+    width: 80%;
+    border-radius: 50%;
+
+}
+
+#article aside .profile a {
+    text-decoration: none;
+    color: #c69f73;
+}
+
+#article aside p {
+    color: black;
+    text-align: center;
+}
+
+#article aside {
+    color: #c69f73;
+    text-align: center;
+}
+
+#article aside .blog img {
+    margin-right: 5px;
+    width: 150px;
+    height: 80px
+}
+
+#article aside .subscribe {
+    background: #ECEAEB;
+    color: black;
+    padding: 15px 5px;
+
+
+}
+
+#article aside .subscribe .btn {
+    margin: 15px auto;
+
+}
+
+
+#article aside .promo-link .content {
+    position: relative;
+}
+
+#article aside .promo-link .content img {
+    width: 100vh;
+    height: 15vh
+}
+
+#article aside .promo-link .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 5px;
+    height: 35px;
+    letter-spacing: 1px;
+
+}
+
+#article aside .featured p {
+    text-align: start;
+
+}
+
+
+#article aside .gallery img {
+    width: 5vw;
+    height: 10vh;
+
+}
+
+
+
+/*Footer*/
+#footer {
+    clear: both;
+}
+
+.footer-gallery {
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.footer-gallery img {
+    width: 300px;
+
+}
+
+#copywrite a {
+    text-decoration: none;
+    color: #c69f73;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #000;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:5px; }
+}

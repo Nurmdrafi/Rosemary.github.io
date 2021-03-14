@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    padding: 0 120px;
+
+
+}
+
+/*Header*/
+nav {
+    box-shadow: 0 0 1px #bdc3c7;
+
+}
+li .active{
+    color: #c69f73 !important;
+}
+
+.fa-shopping-cart {
+    position: relative;
+}
+
+.badge {
+    font-size: 9px;
+    background: #C69F73;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    border-radius: 50%;
+}
+
+#header input {
+    border: none;
+    border-radius: 10px;
+
+}
+
+.fa-search {}
+
+/*Slide*/
+
+.img {
+    width: 420px;
+    margin: auto;
+    margin-top: 58px
+}
+
+.img img {
+    width: 420px;
+
+}
+
+textarea {
+    height:100px !important;
+}
+
+
+#article article {
+    float: left;
+}
+
+#article article h2 {
+    text-align: center
+}
+
+#article article {
+    width: 70%;
+    position: relative;
+
+}
+
+#article aside {
+    width: 28%;
+    float: right;
+    color: white;
+
+}
+
+.blog .trending {
+    position: relative;
+}
+
+.blog .trending span {
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background: black;
+    border-radius: 50%;
+    color: #fff;
+
+}
+
+#article aside .aside-items {
+    margin-left: 35px;
+}
+
+#article aside .btn {
+    border: 1.5px solid #c69f73;
+    border-radius: 0px !important;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+
+}
+
+#article aside .profile img {
+    width: 80%;
+    border-radius: 50%;
+
+}
+
+#article aside .profile a {
+    text-decoration: none;
+    color: #c69f73;
+}
+
+#article aside p {
+    color: black;
+    text-align: center;
+}
+
+#article aside {
+    color: #c69f73;
+    text-align: center;
+}
+
+#article aside .blog img {
+    margin-right: 5px;
+    width: 150px;
+    height: 80px
+}
+
+#article aside .subscribe {
+    background: #ECEAEB;
+    color: black;
+    padding: 15px 5px;
+
+
+}
+
+#article aside .subscribe .btn {
+    margin: 15px auto;
+
+}
+
+
+#article aside .promo-link .content {
+    position: relative;
+}
+
+#article aside .promo-link .content img {
+    width: 100vh;
+    height: 15vh
+}
+
+#article aside .promo-link .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 5px;
+    height: 35px;
+    letter-spacing: 1px;
+
+}
+
+#article aside .featured p {
+    text-align: start;
+
+}
+
+#article aside .gallery {}
+
+#article aside .gallery img {
+    width: 5vw;
+    height: 10vh;
+
+}
+
+
+
+/*Footer*/
+#footer {
+    clear: both;
+}
+
+.footer-gallery {
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.footer-gallery img {
+    width: 300px;
+
+}
+
+#copywrite a {
+    text-decoration: none;
+    color: #c69f73;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #000;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:5px; }
+}

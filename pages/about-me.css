@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    padding: 0 120px;
+
+
+}
+
+/*Header*/
+nav{
+    box-shadow: 0 0 1px #bdc3c7;
+       
+}
+li .active{
+    color: #c69f73 !important;
+}
+
+.fa-shopping-cart {
+    position: relative;
+}
+
+.badge {
+    font-size: 9px;
+    background: #C69F73;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    border-radius: 50%;
+}
+
+#header input {
+    border: none;
+    border-radius: 10px;
+
+}
+
+.fa-search {}
+
+/*Slide*/
+
+.img {
+    width: 420px;
+    margin:auto;
+    margin-top:58px
+}
+
+.img img {
+    width: 420px;
+    
+}
+
+/*About Me*/
+.d-left{float:left;
+    width:55%
+}
+.d-right{
+    float:right;
+    width:45%
+        
+}
+.clear-float{
+    clear:both;
+}
+
+.profile{
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+    border:none;
+}
+#about-me d-left p{
+text-align:center;
+}
+.social .fab{
+    color: #c69f73;
+}
+blockquote { font-size: 25px;
+font-style: italic;}
+
+    
+    
+    
+    
+}
+/*Footer*/
+#footer {
+    clear: both;
+}
+
+.footer-gallery {
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.footer-gallery img {
+    width: 300px;
+
+}
+
+#copywrite a {
+    text-decoration: none;
+    color: #c69f73;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #000;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:5px; }
+}
