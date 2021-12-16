@@ -4,461 +4,463 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/favicon/favicon-sky.svg" type="image/svg">
 
-    <!--    Main CSS-->
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!--    Google Font-->
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
-    <!--    Fontawesome-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <title>Rosemary</title>
 </head>
 
 <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="s70i4a4v"></script>
-    <!--   Start Header-->
+    <!-- Faceboook Page -->
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0"
+        nonce="NYxuN7UI"></script>
 
-    <section id="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link active" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                HOME
-                                <i class="fas fa-angle-down"></i>
-                                
-                            </a>
-                            
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item disabled" href="#">STANDARD BLOG LAYOUT</a></li>
-                                <li><a class="dropdown-item disabled" href="#">LIST LAYOUT</a></li>
-                                <li><a class="dropdown-item disabled" href="#">1ST FULL POST THEN LIST</a></li>
-                                <li><a class="dropdown-item disabled" href="#">GRID LAYOUT</a></li>
-                                <li><a class="dropdown-item disabled" href="#">1ST FULL POST THEN GRID</a></li>
-                            </ul>
-                        </li>
+    <!-- Start Header -->
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                FEATURES
-                                <i class="fas fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item disabled" href="#">GUTENBERG POST</a></li>
-                                <li><a class="dropdown-item disabled" href="#">STANDARD POST</a></li>
-                                <li><a class="dropdown-item disabled" href="#">FULL WIDTH POST</a></li>
-                                <li><a class="dropdown-item disabled" href="#">POST FORMATS</a></li>
-                                <li><a class="dropdown-item disabled" href="#">INDEX SCHORTCODE</a></li>
-                                <li><a class="dropdown-item disabled" href="#">TYPOGRAPHY</a></li>
-                                <li><a class="dropdown-item disabled" href="#">FULL WIDTH PAGE</a></li>
-                            </ul>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/lifestyle.html">LIFESTYLE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">TRAVEL</a>
-                        </li>
-
-
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                SHOP
-                                <i class="fas fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item disabled" href="#">CART</a></li>
-                                <li><a class="dropdown-item disabled" href="#">CHECKOUT</a></li>
-
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/about-me.html">ABOUT ME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/contact.html">CONTACT</a>
-                        </li>
-                    </ul>
-                    <div class="social">
-                        <i class="fab fa-facebook-f mx-2"></i>
-                        <i class="fab fa-twitter mx-2"></i>
-                        <i class="fab fa-instagram mx-2"></i>
-                        <i class="fab fa-pinterest mx-2"></i>
-                        <i class="fas fa-heart mx-2"></i>
-                        <i class="fas fa-rss mx-2"></i>
-                        <i class="fas fa-shopping-cart"><span class="badge">0</span></i>
-
-                    </div>
-
-                    <form class="d-flex ms-2">
-                        <input class="form-control" type="search" placeholder="Search and hit enter..." aria-label="Search">
-                        <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-
+    <header id="header">
+        <div class="container container-nav">
+            <nav class="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-list"><a href="#lifestyle" class="nav-link">Lifestyle</a></li>
+                    <li class="nav-list"><a href="#travel" class="nav-link">Travel</a></li>
+                    <li class="nav-list"><a href="about-me.html" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-list"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-feature">
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-rss"></i>
+                    <i class="fas fa-shopping-cart"><span class="badge">0</span></i>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search and hit enter...">
+                    <i class="fa fa-search"></i>
                 </div>
             </div>
-        </nav>
-    </section>
+        </div>
+    </header>
+    <!-- End Header -->
 
-    <!--    End Header-->
-
-    <!--    Start Slide-->
-    <section id="slide">
+    <!-- Start Hero Section -->
+    <section class="hero container">
         <div class="img">
             <a href="./index.html"><img src="img/rosemary-img.JPG" alt="Rosemary"></a>
         </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Start Slider -->
+    <div id="slide">
         <div class="container">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/post5.jpg" alt="Blueberry Pie Recipe" class="slide-image">
+                        <div class="box">
+                            <h3 class="slide-title">Lifestyle</h3>
+                            <h2 class="slide-heading">Blueberry Pie Recipe</h2>
+                            <p class="slide-info">March 8, 2015</p>
+                            <button class="slide-btn">Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/post3.jpg" alt="Pine Decorations" class="slide-image">
+                        <div class="box">
+                            <h3 class="slide-title">Lifestyle</h3>
+                            <h2 class="slide-heading">Pine Decorations</h2>
+                            <p class="slide-info">March 8, 2015</p>
+                            <button class="slide-btn">Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/post6.jpg" alt="Summer Outfit" class="slide-image">
+                        <div class="box">
+                            <h3 class="slide-title">Lifestyle</h3>
+                            <h2 class="slide-heading">Summer Outfit</h2>
+                            <p class="slide-info">March 8, 2015</p>
+                            <button class="slide-btn">Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="img/post8.jpg" alt="Lykke Li – Gunshot" class="slide-image">
+                        <div class="box">
+                            <h3 class="slide-title">Music</h3>
+                            <h2 class="slide-heading">Lykke Li – Gunshot</h2>
+                            <p class="slide-info">March 8, 2015</p>
+                            <button class="slide-btn">Read More</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./img/post5.jpg" class="img-fluid" alt="...">
-                        <div class="box">
-                            <p>LIFESTYLE</p>
-                            <h3>Blueberry Pie Recipe</h3>
-                            <h6 class="mb-4"><i>March 10, 2021</i></h6>
-                            <button class="btn shake">Read More</button>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-
-                        <img src="./img/post6.jpg" class="img-fluid" alt="...">
-
-                        <div class="box">
-                            <p>LIFESTYLE</p>
-                            <h3>Summer Outfit</h3>
-                            <h6 class="mb-4"><i>March 10, 2021</i></h6>
-                            <button class="btn shake">Read More</button>
-                        </div>
-
-
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/post4.jpg" class="img-fluid" alt="...">
-
-                        <div class="box">
-                            <p>LIFESTYLE</p>
-                            <h3>Snowy Mountains</h3>
-                            <h6 class="mb-4"><i>March 10, 2021</i></h6>
-                            <button class="btn shake">Read More</button>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="./img/post3.jpg" class="img-fluid" alt="...">
-
-                        <div class="box">
-                            <p>LIFESTYLE</p>
-                            <h3>Pine Decorations</h3>
-                            <h6 class="mb-4"><i>March 10, 2021</i></h6>
-                            <button class="btn shake">Read More</button>
-                        </div>
-                    </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- End Slider -->
 
-    <!--    End Slide-->
 
-    <!--  Start Promo-->
+    <!-- Start Promo -->
     <section id="promo">
         <div class="container">
-            <div class="row d-flex my-4">
-                <div class="col-md-4">
-                    <div class="item">
-                        <img src="./img/promo1.jpg" alt="" class="img-fluid">
-                        <div class="box">
-                            <p>FOLLOW @ INSTAGRAM</p>
-                        </div>
-                    </div>
+            <div class="item">
+                <img src="./img/promo1.jpg" alt="">
+                <div class="box">
+                    <p>FOLLOW @ INSTAGRAM</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="item">
-                        <img src="./img/promo2.jpg" alt="" class="img-fluid">
-                        <div class="box">
-                            <P>ABOUT ME</P>
-                        </div>
-                    </div>
+            </div>
+            <div class="item">
+                <img src="./img/promo2.jpg" alt="">
+                <div class="box">
+                    <P>ABOUT ME</P>
                 </div>
-                <div class="col-md-4">
-                    <div class="item">
-                        <img src="./img/promo3.jpg" alt="" class="img-fluid">
-                        <div class="box">
-                            <p>BROWSE SHOP</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="item">
+                <img src="./img/promo3.jpg" alt="">
+                <div class="box">
+                    <p>BROWSE SHOP</p>
                 </div>
             </div>
         </div>
     </section>
-    <!--    End Promo-->
+    <!-- End Promo -->
 
-    <!--    Start Article-->
-    <secetion id="article">
-        <div class="container">
-            <article>
-               <div class="main-post">
-                <h5>TRAVEL</h5>
-                <h2>Exploring the Columbia River Gorge</h2>
-                <h6><i>November 24, 2018</i></h6>
-                <img src="./img/p1-1080x690.jpg" alt="" class="img-fluid">
-                <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan High Life reprehenderit consectetur cupidatat kogi. Et leggings kale chips proident chillwave deep origin coffee ea.</p>
-                <button class="btn">CONTINUE READING</button>
-
-                <div class="social text-end">
+    <!-- Start Blog -->
+    <section id="blog" class="container">
+        <!-- Start Main -->
+        <main role="main">
+            <article class="article-featured">
+                <h3 class="article-title">Travel</h3>
+                <h2 class="article-featured-heading">Exploring the Columbia River Gorge</h2>
+                <p class="article-info">November 24, 2018</p>
+                <img src="./img/p1-1080x690.jpg" alt="" class="article-img">
+                <p class="article-details">Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic
+                    fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard
+                    Helvetica.
+                    Salvia esse nihil, flexitarian Truffaut synth art party deep v chillwave. Seitan
+                    High
+                    Life
+                    reprehenderit consectetur cupidatat kogi. Et leggings kale chips proident chillwave
+                    deep
+                    origin
+                    coffee ea.</p>
+                <button class="continue-reading">CONTINUE READING</button>
+                <div class="social-link">
                     <span>Share</span>
-                    <i class="fab fa-facebook-f mx-2"></i>
-                    <i class="fab fa-twitter mx-2"></i>
-                    <i class="fab fa-pinterest mx-2"></i>
-                    <i class="fab fa-google-plus-g"></i>
-                </div>
-                <hr>
-                </div>
-                <div class="row">
-                    <div class="col-md post">
-                        <img src="./img/post9.jpg" alt="" class="img-fluid">
-                        <h5>TRAVEL</h5>
-                        <h2>Explore the Pacific Northwest</h2>
-                        <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party…</p>
-                        <span>March 8, 2015</span>
-                    </div>
-                    <div class="col-md post">
-                        <img src="./img/post8.jpg" alt="" class="img-fluid">
-                        <h5>MUSIC</h5>
-                        <h2>Lykke Li – Gunshot</h2>
-                        <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party…</p>
-                        <span>March 8, 2015</span>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md post my-5">
-                        <img src="./img/promo1.jpg" alt="" class="img-fluid">
-                        <h5>MUSIC</h5>
-                        <h2>Nothing Like Us</h2>
-                        <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party…</p>
-                        <span>March 8, 2015</span>
-
-                    </div>
-                    <div class="col-md post my-5">
-                        <img src="./img/post3.jpg" alt="" class="img-fluid">
-                        <h5>LIFESTYLE</h5>
-                        <h2>Pine Decorations</h2>
-                        <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party…</p>
-                        <span>March 8, 2015</span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md post my-5">
-                        <img src="./img/post6.jpg" alt="" class="img-fluid">
-                        <h5>LIFESTYLE</h5>
-                        <h2>Summer Outfit</h2>
-                        <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party…</p>
-                        <span>March 8, 2015</span>
-                    </div>
-                    <div class="col-md post mt-5 my-5">
-                        <img src="./img/post5.jpg" alt="" class="img-fluid">
-                        <h5>LIFESTYLE</h5>
-                        <h2>Blueberry Pie Recipe</h2>
-                        <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard Helvetica. Salvia esse nihil, flexitarian Truffaut synth art party…</p>
-                        <span>March 8, 2015</span>
-                    </div>
-
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsolopine.com%2Frosemary%2Fexploring-the-columbia-river-gorge%2F"
+                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Exploring+the+Columbia+River+Gorge&url=https://solopine.com/rosemary/exploring-the-columbia-river-gorge/"
+                        target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.pinterest.com/pin-builder/?url=https%3A%2F%2Fsolopine.com%2Frosemary%2Fexploring-the-columbia-river-gorge%2F&media=https%3A%2F%2Fsolopine.com%2Frosemary%2Fwp-content%2Fuploads%2F2018%2F11%2Fp1.jpg&description=Exploring%20the%20Columbia%20River%20Gorge&method=button"
+                        target="_blank"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://plus.google.com/up/?continue=https://plus.google.com/share?url%3Dhttps://solopine.com/rosemary/exploring-the-columbia-river-gorge/"
+                        target="_blank"><i class="fab fa-google-plus-g"></i></a>
                 </div>
             </article>
-            <aside class="mb-5">
-                <div class="aside-items">
-                    <button class="btn mb-3">ABOUT ME</button>
-                    <div class="profile mb-3">
-                        <img src="./img/profile1.jpg" class="img-fluid" alt="">
+            <br>
+            <hr>
+            <br>
+            <div class="article-secondary">
+                <article class="article-recent">
+                    <img src="./img/post8.jpg" alt="Explore the Pacific Northwest" class="article-img">
+                    <h3 class="article-title">TRAVEL</h3>
+                    <h3 class="article-heading">Explore the Pacific Northwest</h3>
+                    <p class="article-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        dignissimos accusantium possimus. Aperiam eum aliquam aut rerum, quo molestiae minus
+                        commodi ducimus sint reprehenderit earum ut voluptatibus temporibus rem corrupti modi
+                        quisquam enim dolores deleniti soluta, voluptatum, dignissimos quod voluptas. Voluptas
+                        at quidem animi, dolores inventore debitis cupiditate tenetur id?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, error.</p>
+                    <p class="article-info">March 8, 2015</p>
 
-                        <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingestace fanny pack nostrud. Seitan...</p>
-                        <a href="">Read More</a>
-                    </div>
-                    <button class="btn mb-3">SUBSCRIBE &amp; FOLLOW</button>
-                    <div class="social mb-3 mx-2 d-flex justify-content-between">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-pinterest"></i>
-                        <i class="fas fa-heart"></i>
-                        <i class="fas fa-rss"></i>
-                    </div>
+                </article>
 
-                    <button class="btn">MUST-READ ARTICLES</button>
-                    <div class="blog">
-                        <div class="row mt-3">
-                            <div class="com-md d-flex trending">
-                                <img src="./img/p1-1080x690.jpg" alt="" class="img-fluid">
-                                <span>1</span>
-                                <p class="text-start">Exploring the Columbia River Gorge
-                                    <br>
-                                    <i>November 24, 2018</i>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row mt-3">
-                            <div class="com-md d-flex trending">
-                                <img src="./img/post9.jpg" alt="" class="img-fluid">
-                                <span>2</span>
-                                <p class="text-start">Explore the Pacific Northwest
-                                    <br>
-                                    <i>November 24, 2018</i>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row mt-3">
-                            <div class="com-md d-flex trending">
-                                <img src="./img/promo3.jpg" alt="" class="img-fluid">
-                                <span>3</span>
-                                <p class="text-start">Nothing Like Us, Nothing Like You
-                                    <br>
-                                    <i>November 24, 2018</i>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <form class="subscribe mt-3">
-                        <div class="container-fluid">
-                            <h5><i class="mb-5">Subscribe to my newsletter</i></h5>
-                            <input type="text" placeholder="YOUR EMAIL ADDRESS">
-                            <input type="button" class="btn" value="SUBSCRIBE">
-                            
-                        </div>
-
-                    </form>
-                    <div class="promo-link mt-4">
-                        <div class="row">
-
-                            <div class="content">
-                                <a href="#"><img src="./img/promo11.jpg" alt="" class="img-fluid"></a>
-                                <div class="box">
-                                    <p>LIFESTYLE</p>
-                                </div>
-                            </div>
+                <article class="article-recent">
+                    <img src="./img/post7.jpg" alt="Lykke Li – Gunshot" class="article-img">
+                    <h3 class="article-title">MUSIC</h3>
+                    <h3 class="article-heading">Lykke Li – Gunshot</h3>
+                    <p class="article-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                        perferendis deserunt consequatur nam, odit repudiandae obcaecati voluptate facilis
+                        molestiae ipsam vero voluptatem doloribus accusamus, error similique tempora! Commodi
+                        soluta vero magnam quod, vitae facere fugit beatae sequi aliquam magni iste cum neque
+                        eius nobis fugiat ea at aut, hic quia?</p>
+                    <p class="article-info">March 8, 2015</p>
+                </article>
 
 
-                            <div class="content mt-3">
-                                <a href="#"><img src="./img/promo22.jpg" alt="" class="img-fluid"></a>
-                                <div class="box">
-                                    <p>TRAVELS</p>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
-                    <button class="btn mt-4">CATEGORIES</button>
+                <article class="article-recent">
+                    <img src="./img/promo1.jpg" alt="Nothing Like Us" class="article-img">
+                    <h3 class="article-title">MUSIC</h3>
+                    <h3 class="article-heading">Nothing Like Us</h3>
+                    <p class="article-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        dignissimos accusantium possimus. Aperiam eum aliquam aut rerum, quo molestiae minus
+                        commodi ducimus sint reprehenderit earum ut voluptatibus temporibus rem corrupti modi
+                        quisquam enim dolores deleniti soluta, voluptatum, dignissimos quod voluptas. Voluptas
+                        at quidem animi, dolores inventore debitis cupiditate tenetur id?</p>
+                    <p class="article-info">March 8, 2015</p>
 
-                    <div class="featured mt-3">
-                        <p>Featured <span>(4)</span></p>
-                        <hr>
-                        <p>Lifestyle <span>(4)</span></p>
-                        <hr>
-                        <p>Music <span>(4)</span></p>
-                        <hr>
-                        <p>Travel <span>(5)</span></p>
-                        <hr>
-                    </div>
-                    <button class="btn mt-3">INSTAGRAM</button>
+                </article>
 
-                    <div class="gallery mt-4">
-                        <div class="row">
-                            <div class="col-sm">
-                                <a href="https://www.instagram.com/p/CCPIdB5pU5T/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins1.JPG" alt="" class="img-fluid"></a>
-                                <a href="https://www.instagram.com/p/CCPIbFQJHWS/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins2.JPG" alt="" class="img-fluid mt-3"></a>
-                                <a href="https://www.instagram.com/p/CCPIYbOpvp6/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins3.JPG" alt="" class="img-fluid mt-3"></a>
-                            </div>
-                            <div class="col-sm">
-                                <a href="https://www.instagram.com/p/CCPIWiIpKHj/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins4.JPG" alt="" class="img-fluid"></a>
-                                <a href="https://www.instagram.com/p/CCPIUpFpoDD/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins5.JPG" alt="" class="img-fluid mt-3"></a>
-                                <a href="https://www.instagram.com/p/CCPIRMuJg4a/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins6.JPG" alt="" class="img-fluid mt-3"></a>
-                            </div>
-                            <div class="col-sm">
-                                <a href="https://www.instagram.com/p/CCPIO27pyTI/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins7.JPG" alt="" class="img-fluid"></a>
-                                <a href="https://www.instagram.com/p/CCPINMRJqVh/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins8.JPG" alt="" class="img-fluid mt-3"></a>
-                                <a href="https://www.instagram.com/p/CCPIKFJpsUB/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins9.JPG" alt="" class="img-fluid mt-3"></a>
-                            </div>
-                        </div>
-                    </div>
+                <article class="article-recent">
+                    <img src="./img/post3.jpg" alt="Pine Decorations" class="article-img">
+                    <h3 class="article-title">LIFESTYLE</h3>
+                    <h3 class="article-heading">Pine Decorations</h3>
+                    <p class="article-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                        perferendis deserunt consequatur nam, odit repudiandae obcaecati voluptate facilis
+                        molestiae ipsam vero voluptatem doloribus accusamus, error similique tempora! Commodi
+                        soluta vero magnam quod, vitae facere fugit beatae sequi aliquam magni iste cum neque
+                        eius nobis fugiat ea at aut, hic quia?</p>
+                    <p class="article-info">March 8, 2015</p>
+                </article>
 
-                    <button class="btn mt-4">FIND US ON FACEBOOK</button>
-                    <div class="fb-page mt-4" data-href="https://www.facebook.com/SoloPineDesigns/" data-tabs="cover" data-width="270" data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/SoloPineDesigns/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SoloPineDesigns/">Solo Pine Designs</a></blockquote>
-                    </div>
 
+
+                <article class="article-recent">
+                    <img src="./img/post6.jpg" alt="Summer Outfit" class="article-img">
+                    <h3 class="article-title">LIFESTYLE</h3>
+                    <h3 class="article-heading">Summer Outfit</h3>
+                    <p class="article-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        dignissimos accusantium possimus. Aperiam eum aliquam aut rerum, quo molestiae minus
+                        commodi ducimus sint reprehenderit earum ut voluptatibus temporibus rem corrupti modi
+                        quisquam enim dolores deleniti soluta, voluptatum, dignissimos quod voluptas. Voluptas
+                        at quidem animi, dolores inventore debitis cupiditate tenetur id?</p>
+                    <p class="article-info">March 8, 2015</p>
+
+                </article>
+
+                <article class="article-recent">
+                    <img src="./img/post5.jpg" alt="Blueberry Pie Recipe" class="article-img">
+                    <h3 class="article-title">LIFESTYLE</h3>
+                    <h3 class="article-heading">Blueberry Pie Recipe</h3>
+                    <p class="article-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                        perferendis deserunt consequatur nam, odit repudiandae obcaecati voluptate facilis
+                        molestiae ipsam vero voluptatem doloribus accusamus, error similique tempora! Commodi
+                        soluta vero magnam quod, vitae facere fugit beatae sequi aliquam magni iste cum neque
+                        eius nobis fugiat ea at aut, hic quia?</p>
+                    <p class="article-info">March 8, 2015</p>
+                </article>
+        </main>
+        <!-- End Main -->
+
+        <!-- Start Sidebar -->
+        <aside id="aside">
+            <!-- About Me -->
+            <div class="about-me">
+                <h3 class="widget-title">About Me</h3>
+                <img src="./img/profile1.jpg" alt="">
+                <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingestace fanny pack
+                    nostrud. Seitan...</p>
+                <a href="about-me.html">Read More</a>
+            </div>
+            <!-- Subscribe & Follow -->
+            <div class="subscribe">
+                <h3 class="widget-title">Subscribe &amp; Follow</h3>
+                <div class="link">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-rss"></i>
+                </div>
+            </div>
+            <!-- Widget Articles -->
+            <div class="widget-articles">
+                <h3 class="widget-title">Must-Read Articles</h3>
+                <div class="post">
+                    <img src="./img/p1-1080x690.jpg" alt="">
+                    <span>1</span>
+                    <p class="text-start">Exploring the Columbia River Gorge
+                        <br>
+                        <i>November 24, 2018</i>
                 </div>
 
-            </aside>
+                <div class="post">
+                    <img src="./img/post9.jpg" alt="">
+                    <span>2</span>
+                    <p class="text-start">Explore the Pacific Northwest
+                        <br>
+                        <i>November 24, 2018</i>
+                    </p>
+                </div>
+
+                <div class="post">
+                    <img src="./img/promo3.jpg" alt="">
+                    <span>3</span>
+                    <p class="text-start">Nothing Like Us, Nothing Like You
+                        <br>
+                        <i>November 24, 2018</i>
+                    </p>
+                </div>
+
+            </div>
+            <!-- Newsletter -->
+            <div class="newsletter">
+                <p>Subscribe to my Newsletter
+                </p>
+                <input type="text" placeholder="YOUR EMAIL ADDRESS">
+                <button>Subscribe</button>
+            </div>
+            <!-- Widget Posts -->
+            <div class="widget-posts">
+                <div class="post">
+                    <a href="#"><img src="./img/promo11.jpg" alt=""></a>
+                    <div class="box">
+                        <p>LIFESTYLE</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <a href="#"><img src="./img/promo22.jpg" alt=""></a>
+                    <div class="box">
+                        <p>TRAVELS</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Widget Categories -->
+            <div class="widget-categories">
+                <h3 class="widget-title">Categories</h3>
+                <ul>
+                    <li><a href="">Featured <span>(4)</span></a></li>
+                    <li><a href="">Lifestyle <span>(4)</span></a></li>
+                    <li><a href="">Music <span>(4)</span></a></li>
+                    <li><a href="">Travel <span>(5)</span></a></li>
+                </ul>
+            </div>
+            <!-- Instagram -->
+            <div class="widget-instagram">
+                <h3 class="widget-title">
+                    Instagram
+                </h3>
+                <div class="instagram-img">
+                    <a href="https://www.instagram.com/p/CCPIdB5pU5T/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins1.JPG" alt=""></a>
+
+                    <a href="https://www.instagram.com/p/CCPIbFQJHWS/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins2.JPG" alt=""></a>
+
+                    <a href="https://www.instagram.com/p/CCPIYbOpvp6/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins3.JPG" alt=""></a>
+
+                    <a href="https://www.instagram.com/p/CCPIWiIpKHj/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins4.JPG" alt=""></a>
+
+                    <a href="https://www.instagram.com/p/CCPIUpFpoDD/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins5.JPG" alt=""></a>
+                    <a href="https://www.instagram.com/p/CCPIRMuJg4a/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins6.JPG" alt=""></a>
+
+                    <a href="https://www.instagram.com/p/CCPIO27pyTI/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins7.JPG" alt=""></a>
+
+                    <a href="https://www.instagram.com/p/CCPINMRJqVh/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins8.JPG" alt=""></a>
+                    <a href="https://www.instagram.com/p/CCPIKFJpsUB/?utm_source=ig_web_copy_link"><img
+                            src="./img/instagram/ins9.JPG" alt=""></a>
+                </div>
+            </div>
+            <!-- Facebook -->
+            <div class="widget-facebook">
+                <div class="fb-page" data-href="https://www.facebook.com/SoloPineDesigns/" data-tabs="cover"
+                    data-width="380" data-height="180" data-small-header="false" data-adapt-container-width="true"
+                    data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/SoloPineDesigns/" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/SoloPineDesigns/">Solo Pine Designs</a>
+                    </blockquote>
+                </div>
+            </div>
+            <!-- Widget Tags -->
+            <div class="widget-tags">
+                <h3 class="widget-title">
+                    TAG CLOUD
+                </h3>
+                <div class="tag-grid">
+                    <div class="tag">Decorations</div>
+                    <div class="tag">Diy</div>
+                    <div class="tag">Fashion</div>
+                    <div class="tag">Lifestyle</div>
+                    <div class="tag">Music</div>
+                    <div class="tag">Northwest</div>
+                    <div class="tag">Pacific</div>
+                    <div class="tag">Pine</div>
+                    <div class="tag">Recipe</div>
+                    <div class="tag">Travel</div>
+                </div>
+
+            </div>
+
+        </aside>
+        <!-- End Sidebar -->
         </div>
-    </secetion>
-    <!--    End Article-->
+    </section>
+    <!-- End Blog -->
 
-    <!--    Start Footer-->
-    <div id="footer">
-        <div class="footer-gallery d-flex justify-content-between">
 
-            <a href="https://www.instagram.com/p/CCPIdB5pU5T/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins1.JPG" alt="" class="img-fluid"></a>
-            <a href="https://www.instagram.com/p/CCPIbFQJHWS/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins2.JPG" alt="" class="img-fluid"></a>
-            <a href="https://www.instagram.com/p/CCPIYbOpvp6/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins3.JPG" alt="" class="img-fluid"></a>
-            <a href="https://www.instagram.com/p/CCPIO27pyTI/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins7.JPG" alt="" class="img-fluid"></a>
-            <a href="https://www.instagram.com/p/CCPINMRJqVh/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins8.JPG" alt="" class="img-fluid"></a>
-            <a href="https://www.instagram.com/p/CCPIKFJpsUB/?utm_source=ig_web_copy_link"><img src="./img/instagram/ins9.JPG" alt="" class="img-fluid"></a>
+    <!-- Start Footer -->
+    <div id="footer" class="">
+        <div class="footer-gallery container-full">
+            <a href="https://www.instagram.com/p/CCPIdB5pU5T/?utm_source=ig_web_copy_link"><img
+                    src="./img/instagram/ins1.JPG" alt=""></a>
+            <a href="https://www.instagram.com/p/CCPIbFQJHWS/?utm_source=ig_web_copy_link"><img
+                    src="./img/instagram/ins2.JPG" alt=""></a>
+            <a href="https://www.instagram.com/p/CCPIYbOpvp6/?utm_source=ig_web_copy_link"><img
+                    src="./img/instagram/ins3.JPG" alt=""></a>
+            <a href="https://www.instagram.com/p/CCPIO27pyTI/?utm_source=ig_web_copy_link"><img
+                    src="./img/instagram/ins7.JPG" alt=""></a>
+            <a href="https://www.instagram.com/p/CCPINMRJqVh/?utm_source=ig_web_copy_link"><img
+                    src="./img/instagram/ins8.JPG" alt=""></a>
+            <a href="https://www.instagram.com/p/CCPIKFJpsUB/?utm_source=ig_web_copy_link"><img
+                    src="./img/instagram/ins9.JPG" alt=""></a>
 
         </div>
     </div>
-    <!--    End Footer-->
-    <!--Start Copywrite-->
+
+
+    <!-- Start Copywrite -->
     <section id="copywrite">
-       <div class="container">
-        <div class="row d-flex">
-            <div class="col-md text-start ms-5">
+        <div class="container">
+            <div class="copywrite">
                 <p>&copy;2021 All Rights Reserved.</p>
             </div>
-            <div class="col-md text-end me-5">
+            <div class="rafe">
                 <p>Designed &amp; Developed by <a href="#"><i>Raf&eacute;</i></a></p>
             </div>
         </div>
-        </div>
     </section>
-    <!--End Copywrite-->
+    <!-- End Copywrite -->
+    <!-- End Footer -->
 
+    <!-- Script -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 
-
-
-    <!-- Bootstrap JS -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
